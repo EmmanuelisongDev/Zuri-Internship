@@ -1,0 +1,75 @@
+.overlay{
+    @apply
+    fixed
+    bg-black/[0.5]
+    top-0
+    left-0
+    w-full
+    h-screen
+    z-50
+}
+
+.overlay-content{
+    @apply
+    relative
+    top-1/2
+    left-1/2
+    bg-white
+    sm:w-[40%]
+    w-[95%]
+    h-auto
+    pb-5
+    rounded-2xl
+    -translate-y-1/2
+    -translate-x-1/2
+}
+
+.heading{
+    @apply
+    flex
+
+    items-center
+    justify-between
+    p-5
+    font-bold
+    text-2xl
+    border-b
+}
+
+.overlay-content p{
+    @apply
+    p-5
+    mt-2
+}
+
+
+.logo-card{
+    @apply
+    border
+    rounded-2xl
+    p-3
+    mx-5
+    my-3
+    hover:bg-[#F8F9FA]
+}
+
+.logo-card .wrapper{
+    @apply
+    flex
+    items-center
+    justify-between
+    w-full
+    
+}
+
+.logo-card .wrapper .ite{
+    @apply
+    flex
+    items-center
+    space-x-4
+}
+.logo-card .wrapper h1{
+    @apply
+    text-lg
+    font-bold
+}

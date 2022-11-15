@@ -1,0 +1,85 @@
+
+
+
+nav{
+    @apply
+    flex
+    justify-between
+    lg:text-xl
+    text-base
+    mt-11
+    items-center    
+    lg:px-32
+    px-5
+}
+
+.link{
+    @apply
+    lg:flex
+    space-x-9
+    hidden
+}
+
+.link-mobile{
+    @apply
+    absolute
+    flex
+    flex-col
+    bg-[#A02279]
+    w-full
+    left-0
+    top-0
+    h-auto
+    z-30
+    transition-all
+    ease-in-out
+    duration-200
+    
+}
+   
+.link-mobile svg{
+    @apply
+    ml-auto
+    mr-8
+    mt-8
+    text-white
+}
+
+.link-mobile .Link{
+    @apply
+    text-white
+    text-2xl
+    text-center
+    relative
+    mx-auto
+    my-24
+    space-y-9
+    flex
+    flex-col
+    justify-center
+}
+
+.link-mobile .Link button{
+    @apply
+    bg-white
+    p-2
+    rounded-xl
+    text-[#A02279]
+
+}
+.logo{
+    @apply
+    relative
+    md:w-56
+    w-32
+}
+
+.btn button{
+    @apply
+    bg-[#A02279]
+    p-2
+    rounded-xl
+    text-white
+    hidden
+    lg:block
+}

@@ -1,0 +1,49 @@
+footer{
+    @apply
+    bg-[#1D1D1E]
+    text-white
+   flex
+   justify-center
+   flex-col
+    py-20
+    
+}
+
+.footer{
+    @apply
+   grid
+   md:grid-cols-2
+   sm:grid-cols-1
+  
+   md:justify-between
+   
+   lg:mx-32
+   mx-5
+
+}
+
+.logo2{
+    @apply
+    mr-10
+}
+.item{
+    @apply
+    flex
+    md:flex-row
+    flex-col
+    justify-between
+    space-y-10
+    md:space-y-0
+
+
+
+}
+.item .item-1{
+    @apply
+    space-y-3
+}
+
+.item-1 h1{
+    @apply
+    text-2xl
+}
